@@ -1,0 +1,28 @@
+{
+  "name": "restful-api-",
+  "version": "1.0.0",
+  "description": "REST API in nodejs express js and mongodb for user login, logout and signup",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ayushnanda21/RESTful-API-.git"
+  },
+  "author": "Ayush Nanda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ayushnanda21/RESTful-API-/issues"
+  },
+  "homepage": "https://github.com/ayushnanda21/RESTful-API-#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.2",
+    "cookie-parser": "^1.4.6",
+    "express": "^4.17.3",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.2.3",
+    "nodemon": "^2.0.15"
+  }
+}
