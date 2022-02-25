@@ -1,13 +1,12 @@
-//db secret key and connection
-
-
-const config = {
-
-        default: {
-            SECRET : 'mysecretkey',
-            DATABASE: 'mongodb://localhost:27017/Users'
-        }
-
+const config={
+    production :{
+        SECRET: process.env.SECRET,
+        DATABASE: process.env.MONGODB_URI
+    },
+    default : {
+        SECRET: 'mysecretkey',
+        DATABASE: 'mongodb://localhost:27017/Users'
+    }
 }
 
 
